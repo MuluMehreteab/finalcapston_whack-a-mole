@@ -262,8 +262,7 @@ function setDuration(duration) {
 function stopGame() {
 	// stopAudio(song);  //optional
 	clearInterval(timer);
-	time = 15;
-	return "game stopped";
+		return "game stopped";
 }
 
 /**
@@ -273,7 +272,7 @@ function stopGame() {
  *
  */
 function startGame() {
-	setDuration(time);
+	setDuration(20);
 	showUp();
 	clearScore();
 	setEventListeners();
